@@ -17,7 +17,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark"
+                android:background="?colorPrimary"
                 android:elevation="1dp"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
@@ -38,8 +38,8 @@
                 android:elevation="1dp"
                 app:tabGravity="fill"
                 app:tabMode="fixed"
-                app:tabSelectedTextColor="@color/colorAccent"
-                app:tabTextColor="@color/colorPrimary" />
+                app:tabSelectedTextColor="?colorSecondaryVariant"
+                app:tabTextColor="?colorSecondary" />
         </com.google.android.material.appbar.AppBarLayout>
 
         <FrameLayout
